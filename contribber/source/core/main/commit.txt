@@ -1,1 +1,1 @@
-Removed unused dependency for better efficiency
+Added new route for more flexibility
