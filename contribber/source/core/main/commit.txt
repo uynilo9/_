@@ -1,1 +1,1 @@
-Implemented new feature for improved user experience
+Removed unused dependency for better efficiency
