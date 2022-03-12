@@ -1,1 +1,1 @@
-Added missing documentation for better understanding
+Added new script for automating deployment process
