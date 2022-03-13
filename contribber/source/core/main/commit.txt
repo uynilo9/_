@@ -1,1 +1,1 @@
-Fixed issue causing application to crash on startup
+Added new script for better automation
