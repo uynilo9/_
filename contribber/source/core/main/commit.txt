@@ -1,1 +1,1 @@
-Removed redundant code for better performance
+Added new library for better dependency management
