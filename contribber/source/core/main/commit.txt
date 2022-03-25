@@ -1,1 +1,1 @@
-Refactored CSS for better maintainability
+Refactored code for better maintainability
