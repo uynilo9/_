@@ -1,1 +1,1 @@
-Fixed CSS bug causing visual glitches
+Fixed broken link in README.md
