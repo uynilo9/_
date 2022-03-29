@@ -1,1 +1,1 @@
-Refactored code to follow coding standards
+Fixed design bug causing visual inconsistencies
