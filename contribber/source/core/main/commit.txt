@@ -1,1 +1,1 @@
-Added new environment variable for more flexibility
+Removed unused dependency for better efficiency
