@@ -1,1 +1,1 @@
-Added new route for more flexibility
+Added feature to improve search functionality
