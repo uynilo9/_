@@ -1,1 +1,1 @@
-Added new script for automating deployment process
+Refactored code for better extensibility
