@@ -1,1 +1,1 @@
-Removed unused code for better efficiency
+Added new endpoint to expose more data
