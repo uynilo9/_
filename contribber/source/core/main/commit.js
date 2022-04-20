@@ -10,21 +10,25 @@ import descriptions from './descriptions.js';
 
 export default function commit(times) {
     try {
-        if(times == 0) {
-            git().push();
-            success('SUCCESSFULLY CREATE SOME COMMITS');
-            return;
+        const _commit = (_times) => {
+            if(_times == 0) {
+                git().push();
+                success('SUCCESSFULLY CREATE SOME COMMITS');
+                return;
+            };
+            let date = new Date;
+            let start = new Date(date.getFullYear() - 1, date.getMonth(), date.getDate() - 1);
+            let end = date;
+            let time = (new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()))).toUTCString();
+            let description = descriptions[Math.floor(Math.random() * descriptions.length) - 1];
+            fs.writeFile(path.join(path.dirname(url.fileURLToPath(import.meta.url)), 'commit.txt'), description + '', (_error) => {
+                if(_error)
+                    error('FAILED TO CREATE A COMMIT', _error);
+                console.log(time + description);
+                git().add('.').commit(description, { '--date': time }, commit.bind(this, --_times));
+            });
         };
-        let date = new Date;
-        let start = new Date(date.getFullYear() - 1, date.getMonth(), date.getDate() - 1);
-        let end = date;
-        let time = (new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()))).toUTCString();
-        let description = descriptions[Math.floor(Math.random() * descriptions.length) - 1];
-        fs.writeFile(path.join(path.dirname(url.fileURLToPath(import.meta.url)), 'commit.txt'), description + '', (_error) => {
-            if(_error)
-                error('FAILED TO CREATE A COMMIT', _error);
-            git().add('.').commit(description, { '--date': time }, commit.bind(this, --times));
-        });
+        _commit(times)
     } catch(_error) {
         error('FAILED TO CREATE SOME COMMITS', _error);
         process.exit(1);
