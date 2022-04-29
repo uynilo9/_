@@ -1,1 +1,1 @@
-Added missing input validation for better security
+Refactored code for better abstraction
