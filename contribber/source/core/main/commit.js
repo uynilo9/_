@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import url from 'node:url';
 import path from 'node:path';
-import shell from 'shelljs';
+import git from 'simple-git';
 
 import error from '../../utils/error.js'
 import success from '../../utils/success.js';
@@ -12,7 +12,7 @@ export default function commit(times) {
     try {
         while(times >= 0) {
             if(times == 0) {
-                shell.exec('git push');
+                git().push();
                 success('SUCCESSFULLY CREATE SOME COMMITS');
                 break;
             };
@@ -24,8 +24,7 @@ export default function commit(times) {
             fs.writeFile(path.join(path.dirname(url.fileURLToPath(import.meta.url)), 'commit.txt'), description + '', (_error) => {
                 if(_error)
                     error('FAILED TO CREATE A COMMIT', _error);
-                    shell.exec('git add .');
-                    shell.exec(`git commit -m "${ description }" --date "${ time }"`);
+                    git().add('.').commit(description, { '--date': time });
             });
             --times;
         };
