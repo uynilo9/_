@@ -1,1 +1,1 @@
-Fixed design bug causing layout issues
+Added new command for easier debugging
