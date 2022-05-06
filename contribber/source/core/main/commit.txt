@@ -1,1 +1,1 @@
-Fixed design bug causing layout issues
+Refactored code for better testability
