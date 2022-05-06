@@ -1,1 +1,1 @@
-Fixed bug causing data corruption
+Added new command for easier testing
