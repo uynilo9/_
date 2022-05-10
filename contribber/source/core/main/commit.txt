@@ -1,1 +1,1 @@
-Improved UI for better visual design
+Added new environment variable for more flexibility
