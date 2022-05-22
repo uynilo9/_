@@ -1,1 +1,1 @@
-Fixed bug causing data corruption
+Removed unused dependency for better efficiency
