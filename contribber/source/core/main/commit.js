@@ -10,6 +10,7 @@ import descriptions from './descriptions.js';
 
 export default function commit(times) {
     try {
+        success('START CREATING SOME COMMITS', '');
         const _commit = (_times) => {
             if(_times == 0) {
                 git().push();
@@ -24,11 +25,11 @@ export default function commit(times) {
             fs.writeFile(path.join(path.dirname(url.fileURLToPath(import.meta.url)), 'commit.txt'), description + '', (_error) => {
                 if(_error)
                     error('FAILED TO CREATE A COMMIT', _error);
-                console.log(time + description);
+                console.log(time +  ' - ' + description);
                 git().add('.').commit(description, { '--date': time }, commit.bind(this, --_times));
             });
         };
-        _commit(times)
+        _commit(times);
     } catch(_error) {
         error('FAILED TO CREATE SOME COMMITS', _error);
         process.exit(1);
