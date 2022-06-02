@@ -1,1 +1,1 @@
-Refactored code for better testability
+Added new command for easier testing
