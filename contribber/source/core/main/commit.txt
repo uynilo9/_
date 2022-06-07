@@ -1,1 +1,1 @@
-Improved error messages for better usability
+Fixed broken link in README.md
