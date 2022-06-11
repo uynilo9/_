@@ -1,1 +1,1 @@
-Fixed broken integration test
+Removed unused code for better efficiency
