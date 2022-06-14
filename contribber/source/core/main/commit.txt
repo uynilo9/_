@@ -1,1 +1,1 @@
-Improved security by adding password hashing
+Improved documentation for better readability
