@@ -1,1 +1,1 @@
-Refined user interface for better usability
+Added new configuration option for more flexibility
