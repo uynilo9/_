@@ -1,1 +1,1 @@
-Fixed broken link in README.md
+Refactored code for better abstraction
