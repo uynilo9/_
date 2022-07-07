@@ -1,1 +1,1 @@
-Updated documentation to reflect changes in codebase
+Removed unused dependency for better efficiency
