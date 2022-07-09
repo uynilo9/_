@@ -1,1 +1,1 @@
-Added feature to improve search functionality
+Removed redundant code for better performance
