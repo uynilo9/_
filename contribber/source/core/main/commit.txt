@@ -1,1 +1,1 @@
-Fixed compatibility issues with new browser versions
+Fixed broken unit test
