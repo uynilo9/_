@@ -1,1 +1,1 @@
-Fixed bug causing runtime error
+Fixed compatibility issues with new browser versions
