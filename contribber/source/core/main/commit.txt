@@ -1,1 +1,1 @@
-Added new package for better dependency management
+Improved security by adding password encryption
