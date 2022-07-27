@@ -1,1 +1,1 @@
-Refactored CSS for better maintainability
+Fixed bug causing application to crash on certain inputs
