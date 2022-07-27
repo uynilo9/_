@@ -1,1 +1,1 @@
-Refactored CSS for better modularity
+Fixed broken integration test
