@@ -1,1 +1,1 @@
-Refactored code for better testability
+Removed deprecated code to reduce maintenance burden
