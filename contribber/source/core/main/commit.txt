@@ -1,1 +1,1 @@
-Removed unused code for better efficiency
+Fixed CSS bug causing visual glitches
