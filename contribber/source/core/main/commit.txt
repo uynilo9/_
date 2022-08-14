@@ -1,1 +1,1 @@
-Added new script for better automated deployment
+Refactored code for better testability
