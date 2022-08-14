@@ -1,1 +1,1 @@
-Refined user interface for better usability
+Improved error handling for more robustness
