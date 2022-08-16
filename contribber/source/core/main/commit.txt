@@ -1,1 +1,1 @@
-Fixed design bug causing layout issues
+Fixed broken link in documentation
