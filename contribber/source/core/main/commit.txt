@@ -1,1 +1,1 @@
-Improved logging for better debugging
+Improved accessibility by adding ARIA attributes
