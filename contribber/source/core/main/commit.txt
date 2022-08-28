@@ -1,1 +1,1 @@
-Improved security by adding password encryption
+Fixed broken unit test case
