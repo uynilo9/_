@@ -1,1 +1,1 @@
-Added new command for easier debugging
+Improved security by adding input validation
