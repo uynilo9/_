@@ -1,1 +1,1 @@
-Added new package for better dependency management
+Improved accessibility by adding ARIA attributes
