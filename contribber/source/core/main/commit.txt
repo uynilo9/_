@@ -1,1 +1,1 @@
-Added new configuration option for more flexibility
+Added missing input validation for better security
