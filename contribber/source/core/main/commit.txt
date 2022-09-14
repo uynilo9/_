@@ -1,1 +1,1 @@
-Removed unused dependency for better efficiency
+Improved accessibility by adding ARIA attributes
