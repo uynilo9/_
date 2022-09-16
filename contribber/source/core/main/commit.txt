@@ -1,1 +1,1 @@
-Removed redundant code for better performance
+Improved UI for better user experience
