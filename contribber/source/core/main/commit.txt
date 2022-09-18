@@ -1,1 +1,1 @@
-Improved error handling for more robustness
+Added missing documentation for better understanding
