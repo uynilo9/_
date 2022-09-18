@@ -1,1 +1,1 @@
-Improved security by adding input validation
+Refactored code to reduce code duplication
