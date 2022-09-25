@@ -1,1 +1,1 @@
-Fixed issue causing deadlock
+Improved logging for better debugging
