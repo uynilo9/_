@@ -10,6 +10,8 @@
   "scripts": {
     "contribber": "node ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  },
   "devDependencies": {}
 }

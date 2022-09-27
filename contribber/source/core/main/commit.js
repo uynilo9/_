@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import url from 'node:url';
 import path from 'node:path';
-import { spawnSync } from 'node:child_process';
+import shell from 'shelljs';
 
 import error from '../../utils/error.js'
 import success from '../../utils/success.js';
@@ -12,7 +12,7 @@ export default function commit(times) {
     try {
         while(times >= 0) {
             if(times == 0) {
-                spawnSync('git', ['push']);
+                shell.exec('git push');
                 success('SUCCESSFULLY CREATE SOME COMMITS');
                 break;
             };
@@ -25,8 +25,8 @@ export default function commit(times) {
                 if(_error)
                     error('FAILED TO CREATE A COMMIT', _error);
             });
-            spawnSync('git', ['add', '.']);
-            spawnSync('git', ['commit', '-m', `"${ description }"`, '--date',  `"${ time }"`]);
+            shell.exec('git add .');
+            shell.exec(`git commit -m "${ description }" --date "${ time }"`);
             --times;
         };
     } catch(_error) {
