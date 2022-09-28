@@ -1,1 +1,1 @@
-Improved security by adding password hashing
+Improved accessibility by adding ARIA attributes
