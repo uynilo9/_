@@ -1,1 +1,1 @@
-Added new endpoint to expose more data
+Refactored CSS for better modularity
