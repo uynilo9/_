@@ -1,1 +1,1 @@
-Added new script for better automation
+Fixed broken unit test case
