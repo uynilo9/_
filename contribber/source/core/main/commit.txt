@@ -1,1 +1,1 @@
-Improved performance by reducing memory usage
+Improved UI for better visual design
