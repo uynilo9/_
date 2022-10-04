@@ -1,1 +1,1 @@
-Improved accessibility by adding ARIA attributes
+Refactored CSS for better maintainability
