@@ -1,1 +1,1 @@
-Fixed bug causing memory leak
+Improved UI for better usability
