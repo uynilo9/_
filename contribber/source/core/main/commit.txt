@@ -1,1 +1,1 @@
-Refactored CSS for better modularity
+Implemented security fix to prevent potential vulnerabilities
