@@ -1,1 +1,1 @@
-Added new script for automating deployment process
+Improved UI for better user experience
