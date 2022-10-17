@@ -1,1 +1,1 @@
-Improved UI for better user experience
+Updated documentation to reflect changes in codebase
