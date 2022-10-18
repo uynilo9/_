@@ -1,1 +1,1 @@
-Added new API endpoint for more functionality
+Improved performance by optimizing SQL queries
