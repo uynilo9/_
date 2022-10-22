@@ -1,1 +1,1 @@
-Fixed typo in function name
+Updated dependencies to latest versions
