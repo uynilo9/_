@@ -1,1 +1,1 @@
-Improved accessibility by adding ARIA attributes
+Added new script for better deployment automation
