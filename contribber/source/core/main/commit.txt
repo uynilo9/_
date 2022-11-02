@@ -1,1 +1,1 @@
-Added new command for easier debugging
+Fixed issue causing data loss
