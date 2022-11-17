@@ -1,1 +1,1 @@
-Fixed broken link in documentation
+Added new command for easier debugging
