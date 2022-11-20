@@ -1,1 +1,1 @@
-Improved accessibility by adding ARIA attributes
+Fixed compatibility issues with new browser versions
