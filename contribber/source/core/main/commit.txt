@@ -1,1 +1,1 @@
-Improved documentation for better readability
+Added new endpoint to expose more data
