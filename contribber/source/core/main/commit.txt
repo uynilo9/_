@@ -1,1 +1,1 @@
-Fixed broken link causing navigation errors
+Fixed logic bug causing incorrect results
