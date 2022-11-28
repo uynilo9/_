@@ -1,1 +1,1 @@
-Fixed broken image causing layout issues
+Improved accessibility by adding role attributes
