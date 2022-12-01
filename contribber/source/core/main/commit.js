@@ -24,9 +24,9 @@ export default function commit(times) {
             fs.writeFile(path.join(path.dirname(url.fileURLToPath(import.meta.url)), 'commit.txt'), description + '', (_error) => {
                 if(_error)
                     error('FAILED TO CREATE A COMMIT', _error);
+                    shell.exec('git add .');
+                    shell.exec(`git commit -m "${ description }" --date "${ time }"`);
             });
-            shell.exec('git add .');
-            shell.exec(`git commit -m "${ description }" --date "${ time }"`);
             --times;
         };
     } catch(_error) {
