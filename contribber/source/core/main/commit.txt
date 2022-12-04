@@ -1,1 +1,1 @@
-Added new dependency to enhance functionality
+Refactored code for better organization
