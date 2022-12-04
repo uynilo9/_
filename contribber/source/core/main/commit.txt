@@ -1,1 +1,1 @@
-Improved error handling for more robustness
+Improved performance by optimizing algorithm
