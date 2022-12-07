@@ -1,1 +1,1 @@
-Added new feature for more functionality
+Added new library for better functionality
