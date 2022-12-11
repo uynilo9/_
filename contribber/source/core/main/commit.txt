@@ -1,1 +1,1 @@
-Added new route for more flexibility
+Fixed broken link in README.md
