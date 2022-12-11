@@ -1,1 +1,1 @@
-Refactored code to reduce code duplication
+Improved accessibility by adding alt tags to images
