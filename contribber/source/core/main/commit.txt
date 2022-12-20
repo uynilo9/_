@@ -1,1 +1,1 @@
-Improved documentation for better understanding
+Improved security by adding password encryption
