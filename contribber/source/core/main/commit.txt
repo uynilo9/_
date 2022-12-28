@@ -1,1 +1,1 @@
-Added missing error handling for better stability
+Updated documentation to reflect changes in codebase
