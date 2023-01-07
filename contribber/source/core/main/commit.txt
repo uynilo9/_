@@ -1,1 +1,1 @@
-Fixed memory leak causing performance issues
+Refined user interface for better usability
