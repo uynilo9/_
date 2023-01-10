@@ -1,1 +1,1 @@
-Added new library for better functionality
+Refined user interface for better usability
