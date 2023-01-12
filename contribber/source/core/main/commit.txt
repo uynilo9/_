@@ -1,1 +1,1 @@
-Fixed issue causing data loss
+Added new feature to improve user workflow
