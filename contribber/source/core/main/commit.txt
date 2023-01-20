@@ -1,1 +1,1 @@
-Fixed memory leak causing performance issues
+Added new dependency to enhance functionality
