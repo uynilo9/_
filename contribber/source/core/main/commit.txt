@@ -1,1 +1,1 @@
-Fixed logic bug causing incorrect data processing
+Added support for new file formats
