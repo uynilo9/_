@@ -1,1 +1,1 @@
-Added missing input validation for better security
+Added new script for better automated deployment
