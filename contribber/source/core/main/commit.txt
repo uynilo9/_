@@ -1,1 +1,1 @@
-Added new route for more flexibility
+Refactored code to follow coding standards
