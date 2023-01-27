@@ -1,1 +1,1 @@
-Improved UI for better visual design
+Added missing error handling for better stability
