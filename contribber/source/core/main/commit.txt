@@ -1,1 +1,1 @@
-Optimized image loading for faster page load times
+Added new command for easier debugging
