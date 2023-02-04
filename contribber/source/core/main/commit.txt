@@ -1,1 +1,1 @@
-Improved documentation for better understanding
+Improved accessibility by adding alt tags to images
