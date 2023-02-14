@@ -1,1 +1,1 @@
-Refactored code to reduce code duplication
+Refactored code for better testability
