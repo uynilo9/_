@@ -1,1 +1,1 @@
-Fixed bug causing data corruption
+Fixed memory leak causing performance issues
