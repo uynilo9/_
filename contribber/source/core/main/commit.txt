@@ -1,1 +1,1 @@
-Improved accessibility by adding alt tags to images
+Refactored code for better readability
