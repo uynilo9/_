@@ -1,1 +1,1 @@
-Fixed bug causing application to crash on certain inputs
+Added support for multiple languages
