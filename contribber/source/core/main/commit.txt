@@ -1,1 +1,1 @@
-Improved error handling for better reliability
+Fixed design bug causing layout issues
